@@ -23,6 +23,7 @@ export default class View {
   }
 
   update(data) {
+    console.log(data);
     this._data = data;
     const newMarkup = this._generateMarkup();
 
